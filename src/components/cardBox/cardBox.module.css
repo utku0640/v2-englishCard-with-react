@@ -1,0 +1,40 @@
+.cardBox_container {
+  flex: 0.75;
+  height: 83vh;
+
+  background-image: radial-gradient(
+    100% 100% at 100% 0,
+    #5adaff 0,
+    #5468ff 100%
+  );
+  overflow: scroll;
+}
+@media only screen and (max-width: 500px) {
+  .cardBox_container {
+    flex: 1;
+    height: 100vh;
+  }
+}
+@media (min-width: 500px) and (max-width: 768px) {
+  .cardBox_container {
+    flex: 1;
+    height: 100vh;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .cardBox_container {
+    flex: 1;
+    height: 90vh;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1200px) {
+}
+@media only screen and (min-width: 1400px) {
+}
+@media only screen and (min-width: 1630px) {
+}

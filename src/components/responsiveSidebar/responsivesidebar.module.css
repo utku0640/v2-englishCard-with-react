@@ -1,0 +1,276 @@
+.sidebar_containers {
+  background-color: #29648a;
+  width: 100vw;
+  height: 83vh;
+  overflow: scroll;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+.loading {
+  margin: 30px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 40px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: floralwhite;
+  border-radius: 10px;
+}
+.sidebar {
+  display: flex;
+  flex-direction: row;
+}
+.sidebar > button {
+  width: 17vw;
+  border: none;
+  padding: 20px;
+  color: #fff;
+  background-color: crimson;
+  border-radius: 20px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.category_container {
+  /* background-color: aqua; */
+}
+.single_category {
+  margin: 10px 0 10px 10px;
+}
+
+.button_29 {
+  width: 70vw;
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(
+    100% 100% at 100% 0,
+    #5adaff 0,
+    #5468ff 100%
+  );
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 48px;
+  justify-content: start;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+  overflow-wrap: break-word;
+}
+
+.button_29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button_29:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button_29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.button_30 {
+  margin-left: 20px;
+  background-color: red;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans",
+    sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.15385;
+  outline: none;
+  padding: 8px 0.8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button_30:focus {
+  box-shadow: yellow 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, yellow 0 -3px 0 inset;
+}
+
+.button_30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.1) 0 7px 13px -3px, yellow 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button_30:active {
+  box-shadow: yellow 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.button_31 {
+  margin: 20px 0 10px 10px;
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(
+    100% 100% at 100% 0,
+    #5adaff 0,
+    #5468ff 100%
+  );
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 48px;
+  justify-content: start;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+}
+
+.button_31:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button_31:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button_31:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.input_wrapper input {
+  margin: 20px 0 10px 10px;
+  background-color: #eee;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  width: 70vw;
+  border-radius: 1rem;
+  color: black;
+  box-shadow: 0 0.4rem #dfd9d9;
+  cursor: pointer;
+}
+
+.input_wrapper input:focus {
+  outline-color: #2e9cca;
+}
+
+.position_div {
+  display: flex;
+  width: 100%;
+}
+.positionButtonFirst {
+  width: 50%;
+  cursor: pointer;
+  margin: 10px 0 0 10px;
+  padding: 20px;
+  border-radius: 10px 0 0 10px;
+  background-color: grey;
+}
+.positionButtonSecond {
+  background-color: grey;
+  width: 50%;
+  cursor: pointer;
+  margin: 10px 10px 0 0;
+  padding: 20px;
+  border-radius: 0 10px 10px 0;
+}
+
+.activePositionButton {
+  background-image: radial-gradient(
+    100% 100% at 100% 0,
+    #5adaff 0,
+    #5430ff 100%
+  );
+}
+
+@media only screen and (max-width: 500px) {
+}
+@media (min-width: 500px) and (max-width: 768px) {
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+}
+
+@media only screen and (min-width: 992px) {
+  .container_responsive_sidebar {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container_responsive_sidebar {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .container_responsive_sidebar {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1630px) {
+  .container_responsive_sidebar {
+    display: none;
+  }
+}
